@@ -1,2 +1,2 @@
 # C206_LAB
-Laboratorio de C206
+Laboratorio de Programação Orientada a Objetos em Java
