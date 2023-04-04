@@ -1,6 +1,11 @@
 public class Engenheiro extends Funcionario {
     private String ramo;
 
+    public Engenheiro(String nome, int idade, double salario, String ramo) {
+        super(nome, idade, salario);
+        this.ramo = ramo;
+    }
+
     public String getRamo() {
         return ramo;
     }

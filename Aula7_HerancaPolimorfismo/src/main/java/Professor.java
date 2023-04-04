@@ -1,6 +1,11 @@
 public class Professor extends Funcionario {
     private String materias;
 
+    public Professor(String nome, int idade, double salario, String materias) {
+        super(nome, idade, salario);
+        this.materias = materias;
+    }
+
     public String getMaterias() {
         return materias;
     }

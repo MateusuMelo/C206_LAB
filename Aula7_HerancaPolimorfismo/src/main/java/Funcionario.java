@@ -7,6 +7,12 @@ public class Funcionario {
         return nome;
     }
 
+    public Funcionario(String nome, int idade, double salario) {
+        this.nome = nome;
+        this.idade = idade;
+        this.salario = salario;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -36,5 +42,8 @@ public class Funcionario {
 
     public void executaAcao(){
 
+    }
+    public double salarioBonus(){
+        return salario;
     }
 }
